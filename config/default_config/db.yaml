@@ -1,0 +1,28 @@
+# 数据库配置
+# 数据库类型：sqlite, mysql, postgresql
+dialect: sqlite
+# SQLite 数据库文件路径
+storage: ./data/genshin.db
+# 是否启用日志
+logging: false
+
+# MySQL/PostgreSQL 配置（当 dialect 不是 sqlite 时使用）
+# host: localhost
+# port: 3306
+# database: rabbit
+# username: root
+# password: ""
+
+# 连接池配置
+pool:
+  max: 5
+  min: 0
+  acquire: 30000
+  idle: 10000
+
+# 其他配置
+define:
+  timestamps: true
+  paranoid: false
+  underscored: false
+  freezeTableName: false

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yunzai 4.1 高阶WebUI管理面板" />
+    <meta name="keywords" content="Yunzai, WebUI, 管理面板, Vue3, TypeScript" />
+    <meta name="author" content="Yunzai Team" />
+    <title>Yunzai 4.1 管理面板</title>
+    
+    
+    <link rel="preconnect" href="https:
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- 主题色 -->
+    <meta name="theme-color" content="#409EFF" />
+    
+    <!-- PWA支持 -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- 防止FOUC -->
+    <style>
+      #app {
+        height: 100vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      }
+      
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      
+      .loading-content {
+        text-align: center;
+        color: white;
+      }
+      
+      .loading-logo {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 20px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        animation: pulse 2s infinite;
+      }
+      
+      .loading-text {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        opacity: 0.9;
+      }
+      
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-top: 3px solid white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+      }
+      
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 加载动画 -->
+      <div class="loading" id="loading">
+        <div class="loading-content">
+          <div class="loading-logo">🤖</div>
+          <div class="loading-text">Yunzai 4.1 管理面板</div>
+          <div class="loading-spinner"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 全局配置 -->
+    <script>
+      window.__YUNZAI_CONFIG__ = {
+        title: 'Yunzai 4.1 管理面板',
+        version: '4.1.0',
+        apiBaseUrl: '/api',
+        wsUrl: '/socket.io'
+      }
+      window.__YUNZAI_VERSION__ = '4.0.0'
+    </script>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

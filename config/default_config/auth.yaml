@@ -1,0 +1,42 @@
+# 认证配置文件
+# Authentication Configuration
+
+# 本地认证配置
+local:
+  # 是否启用本地认证
+  enabled: true
+  # 本地认证密钥（自动生成，请勿手动修改）
+  authKey: ""
+  # Rabbit 实例ID（自动生成，请勿手动修改）
+  yunzaiId: ""
+
+# 中继服务认证配置
+relay:
+  # 是否启用中继服务
+  enabled: false
+  # 中继服务地址
+  serverUrl: ""
+  # 中继认证密钥
+  authKey: ""
+  # 自动注册到中继服务
+  autoRegister: false
+
+# 安全配置
+security:
+  # 密钥长度
+  keyLength: 32
+  # 密钥更新间隔（小时）
+  keyUpdateInterval: 24
+  # 最大认证尝试次数
+  maxAuthAttempts: 5
+  # 认证失败锁定时间（分钟）
+  lockoutDuration: 30
+
+# 日志配置
+logging:
+  # 是否记录认证日志
+  enabled: true
+  # 日志级别 (debug, info, warn, error)
+  level: "info"
+  # 是否记录敏感信息（建议生产环境关闭）
+  logSensitive: false

@@ -1,0 +1,285 @@
+// 颜色变量
+:root {
+  // 主色调
+  --primary-color: #409eff;
+  --primary-light: #79bbff;
+  --primary-dark: #337ecc;
+  
+  // 成功色
+  --success-color: #67c23a;
+  --success-light: #95d475;
+  --success-dark: #529b2e;
+  
+  // 警告色
+  --warning-color: #e6a23c;
+  --warning-light: #ebb563;
+  --warning-dark: #b88230;
+  
+  // 危险色
+  --danger-color: #f56c6c;
+  --danger-light: #f78989;
+  --danger-dark: #c45656;
+  
+  // 信息色
+  --info-color: #909399;
+  --info-light: #a6a9ad;
+  --info-dark: #73767a;
+  
+  // 文本颜色
+  --text-primary: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --text-placeholder: #c0c4cc;
+  
+  // 边框颜色
+  --border-base: #dcdfe6;
+  --border-light: #e4e7ed;
+  --border-lighter: #ebeef5;
+  --border-extra-light: #f2f6fc;
+  
+  // 背景颜色
+  --bg-color: #ffffff;
+  --bg-color-page: #f2f3f5;
+  --bg-color-overlay: #ffffff;
+  
+  // 填充颜色
+  --fill-color: #f0f2f5;
+  --fill-color-light: #f5f7fa;
+  --fill-color-lighter: #fafafa;
+  --fill-color-extra-light: #fafcff;
+  --fill-color-dark: #ebedf0;
+  --fill-color-darker: #e6e8eb;
+  --fill-color-blank: #ffffff;
+  
+  // 阴影
+  --box-shadow-base: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  --box-shadow-dark: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.12);
+  --box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  
+  // 禁用状态
+  --disabled-bg-color: var(--fill-color-light);
+  --disabled-text-color: var(--text-placeholder);
+  --disabled-border-color: var(--border-light);
+}
+
+// SCSS 变量
+$primary-color: #409eff;
+$primary-light: #79bbff;
+$primary-dark: #337ecc;
+
+$success-color: #67c23a;
+$success-light: #95d475;
+$success-dark: #529b2e;
+
+$warning-color: #e6a23c;
+$warning-light: #ebb563;
+$warning-dark: #b88230;
+
+$danger-color: #f56c6c;
+$danger-light: #f78989;
+$danger-dark: #c45656;
+
+$info-color: #909399;
+$info-light: #a6a9ad;
+$info-dark: #73767a;
+
+// 文本颜色
+$text-primary: #303133;
+$text-regular: #606266;
+$text-secondary: #909399;
+$text-placeholder: #c0c4cc;
+
+// 边框颜色
+$border-base: #dcdfe6;
+$border-light: #e4e7ed;
+$border-lighter: #ebeef5;
+$border-extra-light: #f2f6fc;
+
+// 背景颜色
+$bg-color: #ffffff;
+$bg-color-page: #f2f3f5;
+$bg-color-overlay: #ffffff;
+
+// 填充颜色
+$fill-color: #f0f2f5;
+$fill-color-light: #f5f7fa;
+$fill-color-lighter: #fafafa;
+$fill-color-extra-light: #fafcff;
+$fill-color-dark: #ebedf0;
+$fill-color-darker: #e6e8eb;
+$fill-color-blank: #ffffff;
+
+// 字体大小
+$font-size-extra-large: 20px;
+$font-size-large: 18px;
+$font-size-medium: 16px;
+$font-size-base: 14px;
+$font-size-small: 13px;
+$font-size-extra-small: 12px;
+
+// 间距
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+// 圆角
+$border-radius-base: 4px;
+$border-radius-small: 2px;
+$border-radius-round: 20px;
+$border-radius-circle: 50%;
+
+// 过渡动画
+$transition-duration: 0.3s;
+$transition-function-ease-in-out-bezier: cubic-bezier(0.645, 0.045, 0.355, 1);
+$transition-function-fast-bezier: cubic-bezier(0.23, 1, 0.32, 1);
+$transition-all: all $transition-duration $transition-function-ease-in-out-bezier;
+$transition-fade: opacity $transition-duration $transition-function-fast-bezier;
+$transition-md-fade: transform $transition-duration $transition-function-fast-bezier, opacity $transition-duration $transition-function-fast-bezier;
+$transition-border: border-color $transition-duration $transition-function-ease-in-out-bezier;
+$transition-box-shadow: box-shadow $transition-duration $transition-function-ease-in-out-bezier;
+$transition-color: color $transition-duration $transition-function-ease-in-out-bezier;
+
+// 层级
+$z-index-normal: 1;
+$z-index-top: 1000;
+$z-index-popper: 2000;
+
+// 断点
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+$xl: 1920px;
+
+// 混入
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(144, 147, 153, 0.3);
+    border-radius: 3px;
+    
+    &:hover {
+      background-color: rgba(144, 147, 153, 0.5);
+    }
+  }
+  
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
+
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin multi-ellipsis($lines: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 响应式混入
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == sm {
+    @media (min-width: $sm) {
+      @content;
+    }
+  }
+  @if $breakpoint == md {
+    @media (min-width: $md) {
+      @content;
+    }
+  }
+  @if $breakpoint == lg {
+    @media (min-width: $lg) {
+      @content;
+    }
+  }
+  @if $breakpoint == xl {
+    @media (min-width: $xl) {
+      @content;
+    }
+  }
+}
+
+// 主题混入
+@mixin theme-transition {
+  transition: background-color $transition-duration, color $transition-duration, border-color $transition-duration;
+}
+
+// 卡片样式混入
+@mixin card {
+  background: var(--bg-color);
+  border: 1px solid var(--border-lighter);
+  border-radius: $border-radius-base;
+  box-shadow: var(--box-shadow-light);
+  @include theme-transition;
+}
+
+// 按钮样式混入
+@mixin button-variant($color, $background, $border) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+  
+  &:hover {
+    color: $color;
+    background-color: lighten($background, 10%);
+    border-color: lighten($border, 10%);
+  }
+  
+  &:active {
+    color: $color;
+    background-color: darken($background, 10%);
+    border-color: darken($border, 10%);
+  }
+}
+
+// 表单控件样式混入
+@mixin form-control {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  color: var(--text-regular);
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-base);
+  border-radius: $border-radius-base;
+  transition: border-color $transition-duration;
+  
+  &:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(64, 158, 255, 0.2);
+  }
+  
+  &::placeholder {
+    color: var(--text-placeholder);
+  }
+  
+  &:disabled {
+    background-color: var(--disabled-bg-color);
+    color: var(--disabled-text-color);
+    border-color: var(--disabled-border-color);
+    cursor: not-allowed;
+  }
+}

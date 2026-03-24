@@ -1,0 +1,635 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "启动开发服务器",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/vite",
+      "args": ["--host", "0.0.0.0", "--port", "3000"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "开发",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试 Vue 应用",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-debug-profile",
+      "runtimeArgs": [
+        "--disable-web-security",
+        "--disable-features=VizDisplayCompositor"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "调试",
+        "order": 1
+      },
+      "preLaunchTask": "开发服务器"
+    },
+    {
+      "name": "调试 Edge 应用",
+      "type": "msedge",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/edge-debug-profile",
+      "runtimeArgs": [
+        "--disable-web-security",
+        "--disable-features=VizDisplayCompositor"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "调试",
+        "order": 2
+      },
+      "preLaunchTask": "开发服务器"
+    },
+    {
+      "name": "调试 Firefox 应用",
+      "type": "firefox",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "pathMappings": [
+        {
+          "url": "http://localhost:3000",
+          "path": "${workspaceFolder}"
+        }
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "调试",
+        "order": 3
+      },
+      "preLaunchTask": "开发服务器"
+    },
+    {
+      "name": "附加到 Chrome",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMaps": true,
+      "presentation": {
+        "hidden": false,
+        "group": "调试",
+        "order": 4
+      }
+    },
+    {
+      "name": "调试 Node.js 脚本",
+      "type": "node",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "Node.js",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试 TypeScript 文件",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/ts-node",
+      "args": ["${file}"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "Node.js",
+        "order": 2
+      }
+    },
+    {
+      "name": "调试 Jest 测试",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "--runInBand",
+        "--no-cache",
+        "--no-coverage",
+        "${fileBasenameNoExtension}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "test"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "测试",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试当前测试文件",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": [
+        "--runInBand",
+        "--no-cache",
+        "--no-coverage",
+        "${file}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "test"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "测试",
+        "order": 2
+      }
+    },
+    {
+      "name": "调试 Vitest 测试",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/vitest",
+      "args": [
+        "run",
+        "--reporter=verbose",
+        "${file}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "test"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "测试",
+        "order": 3
+      }
+    },
+    {
+      "name": "调试 Cypress E2E",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/cypress",
+      "args": [
+        "run",
+        "--headed",
+        "--browser", "chrome"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "test"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "E2E",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试 Playwright E2E",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/playwright",
+      "args": [
+        "test",
+        "--headed",
+        "--debug"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "test"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "E2E",
+        "order": 2
+      }
+    },
+    {
+      "name": "调试 ESLint",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/eslint",
+      "args": [
+        "${file}",
+        "--debug"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "工具",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试 Prettier",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/prettier",
+      "args": [
+        "${file}",
+        "--debug-check"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "工具",
+        "order": 2
+      }
+    },
+    {
+      "name": "调试 TypeScript 编译",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/tsc",
+      "args": [
+        "--noEmit",
+        "--listFiles"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "工具",
+        "order": 3
+      }
+    },
+    {
+      "name": "调试 Vite 构建",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/vite",
+      "args": [
+        "build",
+        "--debug"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "production",
+        "DEBUG": "vite:*"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "构建",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试 Rollup 构建",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/rollup",
+      "args": [
+        "-c",
+        "--silent"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "构建",
+        "order": 2
+      }
+    },
+    {
+      "name": "调试 Webpack 构建",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/webpack",
+      "args": [
+        "--mode", "development",
+        "--progress"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "构建",
+        "order": 3
+      }
+    },
+    {
+      "name": "调试 Docker 构建",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/docker-build.js",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "Docker",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试 API 服务器",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/index.js",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": "3001"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "服务器",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试 Mock 服务器",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/mock/server.js",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": "3002"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "服务器",
+        "order": 2
+      }
+    },
+    {
+      "name": "调试 WebSocket 服务器",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/websocket.js",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development",
+        "WS_PORT": "3003"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "服务器",
+        "order": 3
+      }
+    },
+    {
+      "name": "调试 PWA 服务工作者",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/public",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-pwa-profile",
+      "runtimeArgs": [
+        "--disable-web-security",
+        "--disable-features=VizDisplayCompositor",
+        "--enable-service-worker-script-debugging"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "PWA",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试移动端应用",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-mobile-profile",
+      "runtimeArgs": [
+        "--disable-web-security",
+        "--disable-features=VizDisplayCompositor",
+        "--user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "移动端",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试性能分析",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-perf-profile",
+      "runtimeArgs": [
+        "--disable-web-security",
+        "--disable-features=VizDisplayCompositor",
+        "--enable-precise-memory-info",
+        "--enable-devtools-experiments"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "性能",
+        "order": 1
+      }
+    },
+    {
+      "name": "调试内存泄漏",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/.bin/vite",
+      "args": ["--host", "0.0.0.0", "--port", "3000"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "NODE_ENV": "development",
+        "NODE_OPTIONS": "--inspect --max-old-space-size=4096"
+      },
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "性能",
+        "order": 2
+      }
+    },
+    {
+      "name": "调试生产构建",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:4173",
+      "webRoot": "${workspaceFolder}/dist",
+      "sourceMaps": true,
+      "userDataDir": "${workspaceFolder}/.vscode/chrome-prod-profile",
+      "runtimeArgs": [
+        "--disable-web-security",
+        "--disable-features=VizDisplayCompositor"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "生产",
+        "order": 1
+      },
+      "preLaunchTask": "预览构建"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "全栈调试",
+      "configurations": [
+        "调试 API 服务器",
+        "调试 Vue 应用"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "复合",
+        "order": 1
+      }
+    },
+    {
+      "name": "完整开发环境",
+      "configurations": [
+        "调试 API 服务器",
+        "调试 Mock 服务器",
+        "调试 WebSocket 服务器",
+        "调试 Vue 应用"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "复合",
+        "order": 2
+      }
+    },
+    {
+      "name": "多浏览器测试",
+      "configurations": [
+        "调试 Vue 应用",
+        "调试 Edge 应用",
+        "调试 Firefox 应用"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "复合",
+        "order": 3
+      }
+    },
+    {
+      "name": "性能调试套件",
+      "configurations": [
+        "调试性能分析",
+        "调试内存泄漏"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "复合",
+        "order": 4
+      }
+    }
+  ]
+}

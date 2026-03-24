@@ -1,0 +1,48 @@
+# 插件引擎配置
+
+# 沙箱模式
+enableSandbox: true
+# 热重载功能
+enableHotReload: true
+# 最大工作进程数
+maxWorkers: 4
+# 工作进程超时时间(毫秒)
+workerTimeout: 30000
+# 自动加载插件
+autoLoad: true
+# 自动启动插件
+autoStart: true
+# 插件超时时间(毫秒)
+pluginTimeout: 5000
+# 最大内存限制(字节)
+maxMemory: 134217728
+
+# 允许加载的模块
+allowedModules:
+  - lodash
+  - axios
+  - moment
+  - cheerio
+  - crypto-js
+
+# 禁用的模块
+blockedModules:
+  - fs
+  - child_process
+  - cluster
+  - net
+  - dgram
+  - os
+
+# 速率限制配置
+rateLimit:
+  enabled: true
+  refillRate: 10
+  bucketCapacity: 20
+
+# 熔断器配置
+circuitBreaker:
+  enabled: true
+  failureThreshold: 5
+  windowMs: 30000
+  halfOpenAfter: 15000

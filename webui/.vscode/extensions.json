@@ -1,0 +1,1319 @@
+{
+  "recommendations": [
+    // Vue.js 开发
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    
+    // TypeScript/JavaScript 开发
+    "ms-vscode.vscode-typescript-next",
+    "bradlc.vscode-tailwindcss",
+    "usernamehw.errorlens",
+    "ms-vscode.vscode-json",
+    
+    // 代码质量和格式化
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint",
+    "editorconfig.editorconfig",
+    
+    // Git 相关
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "github.vscode-pull-request-github",
+    
+    // 开发工具
+    "ms-vscode.vscode-node-azure-pack",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "christian-kohler.path-intellisense",
+    "zignd.html-css-class-completion",
+    "bradlc.vscode-tailwindcss",
+    
+    // 代码片段和自动完成
+    "hollowtree.vue-snippets",
+    "sdras.vue-vscode-snippets",
+    "ms-vscode.vscode-typescript-next",
+    "christian-kohler.npm-intellisense",
+    
+    // 主题和图标
+    "pkief.material-icon-theme",
+    "equinusocio.vsc-material-theme",
+    "zhuangtongfa.material-theme",
+    "github.github-vscode-theme",
+    
+    // 实用工具
+    "ms-vscode.live-server",
+    "ritwickdey.liveserver",
+    "humao.rest-client",
+    "rangav.vscode-thunder-client",
+    "ms-vscode.vscode-json",
+    "redhat.vscode-yaml",
+    
+    // 调试和测试
+    "ms-vscode.js-debug",
+    "hbenl.vscode-test-explorer",
+    "kavod-io.vscode-jest-test-adapter",
+    "orta.vscode-jest",
+    
+    // 文档和注释
+    "yzhang.markdown-all-in-one",
+    "shd101wyy.markdown-preview-enhanced",
+    "bierner.markdown-mermaid",
+    "aaron-bond.better-comments",
+    "streetsidesoftware.code-spell-checker",
+    
+    // 容器和部署
+    "ms-azuretools.vscode-docker",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "redhat.vscode-yaml",
+    
+    // 数据库
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-mysql",
+    "mtxr.sqltools-driver-pg",
+    "mtxr.sqltools-driver-sqlite",
+    
+    // 性能和分析
+    "ms-vscode.vscode-js-profile-flame",
+    "wallabyjs.quokka-vscode",
+    "wallabyjs.wallaby-vscode",
+    
+    // 代码导航和搜索
+    "alefragnani.bookmarks",
+    "alefragnani.project-manager",
+    "ms-vscode.references-view",
+    "gruntfuggly.todo-tree",
+    
+    // 终端和命令行
+    "ms-vscode.powershell",
+    "formulahendry.terminal",
+    "tyriar.sort-lines",
+    
+    // 代码生成和重构
+    "ms-vscode.vscode-typescript-next",
+    "steoates.autoimport-es6-ts",
+    "formulahendry.code-runner",
+    
+    // API 开发
+    "42crunch.vscode-openapi",
+    "arjun.swagger-viewer",
+    "mermade.openapi-lint",
+    
+    // 配置文件支持
+    "redhat.vscode-xml",
+    "dotjoshjohnson.xml",
+    "tamasfe.even-better-toml",
+    "bungcip.better-toml",
+    
+    // 颜色和主题
+    "naumovs.color-highlight",
+    "kamikillerto.vscode-colorize",
+    "bradlc.vscode-tailwindcss",
+    
+    // 文件管理
+    "sleistner.vscode-fileutils",
+    "patbenatar.advanced-new-file",
+    "formulahendry.auto-rename-tag",
+    
+    // 代码度量
+    "kisstkondoros.vscode-gutter-preview",
+    "wix.vscode-import-cost",
+    "ms-vscode.vscode-js-profile-flame",
+    
+    // 协作工具
+    "ms-vsliveshare.vsliveshare",
+    "ms-vsliveshare.vsliveshare-audio",
+    "ms-vsliveshare.vsliveshare-pack",
+    
+    // 安全和代码扫描
+    "snyk-security.snyk-vulnerability-scanner",
+    "ms-vscode.vscode-github-issue-notebooks",
+    
+    // 国际化
+    "lokalise.i18n-ally",
+    "antfu.i18n-ally",
+    
+    // 代码片段管理
+    "tabnine.tabnine-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "github.copilot",
+    "github.copilot-chat",
+    
+    // 工作流和自动化
+    "github.vscode-github-actions",
+    "ms-vscode.github-issues-prs",
+    "redhat.vscode-yaml",
+    
+    // 代码覆盖率
+    "ryanluker.vscode-coverage-gutters",
+    "markis.code-coverage",
+    
+    // 环境变量
+    "mikestead.dotenv",
+    "irongeek.vscode-env",
+    
+    // 正则表达式
+    "chrmarti.regex",
+    "le0zh.vscode-regexp-preivew",
+    
+    // 字体和排版
+    "be5invis.vscode-custom-css",
+    "iocave.customize-ui",
+    "iocave.monkey-patch",
+    
+    // 快捷键和效率
+    "ms-vscode.sublime-keybindings",
+    "alefragnani.numbered-bookmarks",
+    "geddski.macros",
+    
+    // 代码折叠和导航
+    "maptz.regionfolder",
+    "spmeesseman.vscode-taskexplorer",
+    "gruntfuggly.activitusbar",
+    
+    // 日志和监控
+    "emilast.logfilehighlighter",
+    "ibm.output-colorizer",
+    
+    // 数据可视化
+    "randomfractalsinc.vscode-data-preview",
+    "mechatroner.rainbow-csv",
+    
+    // 代码质量检查
+    "sonarsource.sonarlint-vscode",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 包管理
+    "eg2.vscode-npm-script",
+    "christian-kohler.npm-intellisense",
+    "mskelton.npm-outdated",
+    
+    // 浏览器集成
+    "ms-vscode.live-server",
+    "auchenberg.vscode-browser-preview",
+    
+    // 代码生成器
+    "formulahendry.vscode-mysql",
+    "cweijan.vscode-mysql-client2",
+    
+    // 移动开发
+    "ms-vscode.vscode-react-native",
+    "vsmobile.cordova-tools",
+    
+    // 云服务
+    "ms-vscode.azure-account",
+    "ms-azuretools.vscode-azureappservice",
+    "ms-azuretools.vscode-azurefunctions",
+    
+    // 代码统计
+    "uctakeoff.vscode-counter",
+    "ms-vscode.vscode-js-profile-flame",
+    
+    // 文档生成
+    "hnw.vscode-auto-open-markdown-preview",
+    "bierner.docs-view",
+    
+    // 代码模板
+    "formulahendry.vscode-auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    
+    // 性能优化
+    "ms-vscode.vscode-js-profile-flame",
+    "wallabyjs.console-ninja",
+    
+    // 代码审查
+    "github.vscode-pull-request-github",
+    "ms-vscode.github-issues-prs",
+    
+    // 项目管理
+    "alefragnani.project-manager",
+    "formulahendry.vscode-mysql",
+    
+    // 代码格式化增强
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 终端增强
+    "tyriar.terminal-tabs",
+    "formulahendry.terminal",
+    
+    // 文件比较
+    "ryu1kn.partial-diff",
+    "moshfeu.compare-folders",
+    
+    // 代码片段共享
+    "vsls-contrib.gistfs",
+    "kenhowardpdx.vscode-gist",
+    
+    // 代码注释增强
+    "aaron-bond.better-comments",
+    "stackbreak.comment-divider",
+    
+    // 括号匹配
+    "coenraads.bracket-pair-colorizer-2",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 缩进指南
+    "oderwat.indent-rainbow",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 代码地图
+    "oleg-shilo.codemap",
+    "patrys.vscode-code-outline",
+    
+    // 快速打开
+    "chrisdias.vscode-opennewinstance",
+    "alefragnani.project-manager",
+    
+    // 代码搜索增强
+    "ms-vscode.references-view",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 工作区管理
+    "alefragnani.project-manager",
+    "ms-vscode.remote-repositories",
+    
+    // 代码片段管理
+    "robole.snippets-ranger",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 代码度量和分析
+    "ms-vscode.vscode-js-profile-flame",
+    "wix.vscode-import-cost",
+    
+    // 多光标编辑
+    "slevesque.vscode-multiclip",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 代码历史
+    "xyz.local-history",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 代码同步
+    "shan.code-settings-sync",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 代码生成
+    "formulahendry.code-runner",
+    "ms-vscode.vscode-typescript-next",
+    
+    // 代码重构
+    "ms-vscode.vscode-typescript-next",
+    "steoates.autoimport-es6-ts",
+    
+    // 代码导航
+    "ms-vscode.references-view",
+    "alefragnani.bookmarks",
+    
+    // 代码补全
+    "visualstudioexptteam.vscodeintellicode",
+    "tabnine.tabnine-vscode",
+    
+    // AI 辅助
+    "github.copilot",
+    "github.copilot-chat",
+    "continue.continue",
+    
+    // 代码质量
+    "sonarsource.sonarlint-vscode",
+    "usernamehw.errorlens",
+    
+    // 性能监控
+    "ms-vscode.vscode-js-profile-flame",
+    "wallabyjs.quokka-vscode"
+  ],
+  "unwantedRecommendations": [
+    // 过时的 Vue 扩展
+    "octref.vetur",
+    
+    // 过时的 TypeScript 扩展
+    "ms-vscode.typescript-hero",
+    
+    // 冲突的格式化工具
+    "hookyqr.beautify",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    
+    // 过时的 Git 扩展
+    "codezombiech.gitignore",
+    
+    // 冲突的括号匹配
+    "coenraads.bracket-pair-colorizer",
+    
+    // 过时的自动补全
+    "christian-kohler.path-intellisense",
+    
+    // 冲突的代码片段
+    "xabikos.javascriptsnippets",
+    
+    // 过时的主题
+    "zhuangtongfa.material-theme",
+    
+    // 冲突的终端工具
+    "formulahendry.terminal",
+    
+    // 过时的调试工具
+    "ms-vscode.node-debug",
+    "ms-vscode.node-debug2",
+    
+    // 冲突的 ESLint
+    "dirk-bester.tslint-eslint-rules",
+    
+    // 过时的 CSS 工具
+    "bradlc.vscode-tailwindcss",
+    
+    // 冲突的 HTML 工具
+    "formulahendry.auto-close-tag",
+    
+    // 过时的 JSON 工具
+    "andyyaldoo.vscode-json",
+    
+    // 冲突的 Markdown 工具
+    "davidanson.vscode-markdownlint",
+    
+    // 过时的 YAML 工具
+    "redhat.vscode-yaml",
+    
+    // 冲突的 Docker 工具
+    "peterjausovec.vscode-docker",
+    
+    // 过时的 REST 客户端
+    "humao.rest-client",
+    
+    // 冲突的 Live Server
+    "ritwickdey.liveserver",
+    
+    // 过时的代码运行器
+    "formulahendry.code-runner",
+    
+    // 冲突的文件图标
+    "robertohuertasm.vscode-icons",
+    
+    // 过时的颜色主题
+    "ms-vscode.theme-monokai",
+    
+    // 冲突的代码片段管理
+    "ms-vscode.vscode-snippet",
+    
+    // 过时的项目管理
+    "alefragnani.project-manager",
+    
+    // 冲突的书签工具
+    "alefragnani.bookmarks",
+    
+    // 过时的 TODO 工具
+    "gruntfuggly.todo-tree",
+    
+    // 冲突的代码覆盖率
+    "ryanluker.vscode-coverage-gutters",
+    
+    // 过时的正则表达式工具
+    "chrmarti.regex",
+    
+    // 冲突的环境变量工具
+    "mikestead.dotenv",
+    
+    // 过时的 SQL 工具
+    "mtxr.sqltools",
+    
+    // 冲突的数据库客户端
+    "cweijan.vscode-mysql-client2",
+    
+    // 过时的 Azure 工具
+    "ms-vscode.azure-account",
+    
+    // 冲突的 GitHub 工具
+    "github.vscode-pull-request-github",
+    
+    // 过时的 Kubernetes 工具
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    
+    // 冲突的 PowerShell 工具
+    "ms-vscode.powershell",
+    
+    // 过时的 Python 工具
+    "ms-python.python",
+    
+    // 冲突的 Java 工具
+    "redhat.java",
+    
+    // 过时的 C# 工具
+    "ms-dotnettools.csharp",
+    
+    // 冲突的 Go 工具
+    "golang.go",
+    
+    // 过时的 Rust 工具
+    "rust-lang.rust",
+    
+    // 冲突的 PHP 工具
+    "felixfbecker.php-intellisense",
+    
+    // 过时的 Ruby 工具
+    "rebornix.ruby",
+    
+    // 冲突的 Perl 工具
+    "cfgarden.vscode-perl",
+    
+    // 过时的 Shell 工具
+    "foxundermoon.shell-format",
+    
+    // 冲突的 Batch 工具
+    "ms-vscode.batch",
+    
+    // 过时的 Lua 工具
+    "sumneko.lua",
+    
+    // 冲突的 R 工具
+    "ikuyadeu.r",
+    
+    // 过时的 Julia 工具
+    "julialang.language-julia",
+    
+    // 冲突的 Scala 工具
+    "scalameta.metals",
+    
+    // 过时的 Kotlin 工具
+    "fwcd.kotlin",
+    
+    // 冲突的 Swift 工具
+    "sswg.swift-lang",
+    
+    // 过时的 Dart 工具
+    "dart-code.dart-code",
+    
+    // 冲突的 Flutter 工具
+    "dart-code.flutter",
+    
+    // 过时的 Haskell 工具
+    "haskell.haskell",
+    
+    // 冲突的 Erlang 工具
+    "pgourlain.erlang",
+    
+    // 过时的 Elixir 工具
+    "jakebecker.elixir-ls",
+    
+    // 冲突的 Clojure 工具
+    "betterthantomorrow.calva",
+    
+    // 过时的 F# 工具
+    "ionide.ionide-fsharp",
+    
+    // 冲突的 OCaml 工具
+    "ocamllabs.ocaml-platform",
+    
+    // 过时的 Reason 工具
+    "jaredly.reason-vscode",
+    
+    // 冲突的 Elm 工具
+    "elmtooling.elm-ls-vscode",
+    
+    // 过时的 PureScript 工具
+    "nwolverson.language-purescript",
+    
+    // 冲突的 Nim 工具
+    "kosz78.nim",
+    
+    // 过时的 Crystal 工具
+    "crystal-lang-tools.crystal-lang",
+    
+    // 冲突的 Zig 工具
+    "ziglang.vscode-zig",
+    
+    // 过时的 V 工具
+    "vlang.vscode-vlang",
+    
+    // 冲突的 Odin 工具
+    "danielgavin.ols",
+    
+    // 过时的 Carbon 工具
+    "carbon-language.carbon-lang",
+    
+    // 冲突的 Mojo 工具
+    "modular-mojotools.vscode-mojo",
+    
+    // 过时的 WebAssembly 工具
+    "dtsvet.vscode-wasm",
+    
+    // 冲突的 LLVM 工具
+    "llvm-vs-code-extensions.vscode-mlir",
+    
+    // 过时的汇编工具
+    "13xforever.language-x86-64-assembly",
+    
+    // 冲突的机器学习工具
+    "ms-toolsai.jupyter",
+    
+    // 过时的数据科学工具
+    "ms-python.python",
+    
+    // 冲突的区块链工具
+    "juanblanco.solidity",
+    
+    // 过时的游戏开发工具
+    "ms-dotnettools.csharp",
+    
+    // 冲突的移动开发工具
+    "ms-vscode.vscode-react-native",
+    
+    // 过时的桌面开发工具
+    "ms-vscode.vscode-electron",
+    
+    // 冲突的嵌入式开发工具
+    "ms-vscode.vscode-embedded-tools",
+    
+    // 过时的物联网工具
+    "vsciot-vscode.azure-iot-tools",
+    
+    // 冲突的云原生工具
+    "ms-azuretools.vscode-azureappservice",
+    
+    // 过时的微服务工具
+    "ms-azuretools.vscode-azurefunctions",
+    
+    // 冲突的容器工具
+    "ms-azuretools.vscode-docker",
+    
+    // 过时的 DevOps 工具
+    "ms-azure-devops.azure-pipelines",
+    
+    // 冲突的监控工具
+    "ms-vscode.vscode-js-profile-flame",
+    
+    // 过时的安全工具
+    "snyk-security.snyk-vulnerability-scanner",
+    
+    // 冲突的测试工具
+    "hbenl.vscode-test-explorer",
+    
+    // 过时的文档工具
+    "yzhang.markdown-all-in-one",
+    
+    // 冲突的协作工具
+    "ms-vsliveshare.vsliveshare",
+    
+    // 过时的版本控制工具
+    "eamodio.gitlens",
+    
+    // 冲突的项目管理工具
+    "alefragnani.project-manager",
+    
+    // 过时的代码质量工具
+    "sonarsource.sonarlint-vscode",
+    
+    // 冲突的性能工具
+    "wallabyjs.quokka-vscode",
+    
+    // 过时的调试工具
+    "ms-vscode.js-debug",
+    
+    // 冲突的部署工具
+    "ms-azuretools.vscode-azureappservice",
+    
+    // 过时的数据库工具
+    "mtxr.sqltools",
+    
+    // 冲突的 API 工具
+    "humao.rest-client",
+    
+    // 过时的网络工具
+    "ms-vscode.live-server",
+    
+    // 冲突的文件管理工具
+    "sleistner.vscode-fileutils",
+    
+    // 过时的搜索工具
+    "ms-vscode.references-view",
+    
+    // 冲突的导航工具
+    "alefragnani.bookmarks",
+    
+    // 过时的编辑工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的格式化工具
+    "esbenp.prettier-vscode",
+    
+    // 过时的主题工具
+    "pkief.material-icon-theme",
+    
+    // 冲突的界面工具
+    "iocave.customize-ui",
+    
+    // 过时的快捷键工具
+    "ms-vscode.sublime-keybindings",
+    
+    // 冲突的自动化工具
+    "github.vscode-github-actions",
+    
+    // 过时的集成工具
+    "ms-vscode.azure-account",
+    
+    // 冲突的扩展管理工具
+    "ms-vscode.vscode-extension-samples",
+    
+    // 过时的开发工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的构建工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的打包工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的发布工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的维护工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的优化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的分析工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的报告工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的通知工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的同步工具
+    "shan.code-settings-sync",
+    
+    // 过时的备份工具
+    "xyz.local-history",
+    
+    // 冲突的恢复工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的迁移工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的升级工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的配置工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的设置工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的首选项工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的选项工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的参数工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的变量工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的常量工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的枚举工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的接口工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的类型工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的模块工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的命名空间工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的包工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的库工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的框架工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的平台工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的运行时工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的引擎工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的编译器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的解释器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的虚拟机工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的容器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的镜像工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的注册表工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的仓库工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的存储工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的缓存工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的队列工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的消息工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的事件工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的流工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的管道工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的过滤器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的转换器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的映射器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的减少器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的聚合器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的收集器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的迭代器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的生成器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的观察者工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的监听器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的处理器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的控制器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的服务工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的客户端工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的服务器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的代理工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的网关工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的路由器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的负载均衡器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的防火墙工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的安全工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的认证工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的授权工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的加密工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的解密工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的签名工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的验证工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的证书工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的密钥工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的令牌工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的会话工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的 Cookie 工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的存储工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的持久化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的序列化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的反序列化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的编码工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的解码工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的压缩工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的解压工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的打包工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的解包工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的归档工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的提取工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的同步工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的异步工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的并发工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的并行工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的线程工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的进程工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的任务工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的作业工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的调度工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的定时器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的计时器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的时钟工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的时间工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的日期工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的日历工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的时区工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的本地化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的国际化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的翻译工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的语言工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的区域工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的文化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的格式工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的解析工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的验证工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的清理工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的规范化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的标准化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的优化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的最小化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的最大化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的缩放工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的调整工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的适配工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的转换工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的变换工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的修改工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的更新工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的升级工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的降级工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的迁移工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的导入工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的导出工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的复制工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的移动工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的删除工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的创建工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的生成工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的构建工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的编译工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的链接工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的打包工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的部署工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的发布工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的分发工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的交付工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的安装工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的卸载工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的配置工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的设置工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的初始化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的启动工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的停止工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重启工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的暂停工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的恢复工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重置工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的清除工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的刷新工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新加载工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新启动工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新初始化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新配置工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新设置工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新安装工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新部署工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新发布工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新分发工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新交付工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新构建工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新编译工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新链接工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新打包工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新生成工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新创建工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新删除工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新移动工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新复制工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新导出工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新导入工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新迁移工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新升级工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新降级工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新更新工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新修改工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新变换工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新转换工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新适配工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新调整工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新缩放工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新最大化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新最小化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新优化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新标准化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新规范化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新清理工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新验证工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新解析工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新格式工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新文化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新区域工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新语言工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新翻译工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新国际化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新本地化工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新时区工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新日历工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新日期工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新时间工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新时钟工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新计时器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新定时器工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新调度工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新作业工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新任务工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新进程工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新线程工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新并行工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新并发工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 冲突的重新异步工具
+    "ms-vscode.vscode-typescript-next",
+    
+    // 过时的重新同步工具
+    "ms-vscode.vscode-typescript-next"
+  ]
+}
