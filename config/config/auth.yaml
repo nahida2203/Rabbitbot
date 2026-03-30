@@ -1,0 +1,23 @@
+auth:
+  local:
+    key: a56373221590b7ec73d9d6fb95e7765d
+    generated_at: 2025-08-18T07:51:12.299Z
+    status: active
+    yunzai_id: yunzai_megtfwdn_6d6bfa157da9bdce
+    instance_name: Yunzai-1755503472299
+  relay:
+    enabled: false
+    server_url: https://yunzai.niniandmiaomiao.love
+    auth_key: ""
+    timeout: 10000
+    reconnect_interval: 5000
+    max_reconnect_attempts: 3
+  security:
+    validate_timestamp: true
+    max_time_drift: 300000
+    key_rotation_days: 30
+    allowed_ips: []
+  logging:
+    enabled: true
+    level: info
+    log_sensitive: false
