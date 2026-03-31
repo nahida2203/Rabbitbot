@@ -1,0 +1,48 @@
+# Milky 适配器 WebSocket 接入路径
+ws_path: Milky
+
+# 是否启用 Milky 主动接入模式
+enable: false
+
+# Milky 事件接入模式：reverse_ws | ws | webhook
+connection: reverse_ws
+
+# Milky 协议端主机地址，用于主动连接/ws-webhook 模式
+host: ""
+
+# Milky 协议端端口
+port: 0
+
+# Milky 协议端 API 前缀，例如 /milky
+prefix: ""
+
+# Milky HTTP API 基础地址，例如：http://127.0.0.1:3000
+api_base: ""
+
+# Milky API 访问令牌，等价于环境变量 MILKY_ACCESS_TOKEN
+access_token: ""
+
+# Milky HTTP API 请求超时时间（毫秒）
+api_timeout: 60000
+
+# Milky HTTP API 请求超时时间（秒），用于主动连接模式
+http_timeout: 60
+
+# 保留的系统请求缓存条数
+request_cache_size: 200
+
+ws:
+  # 主动连接 Milky Event WS 时的心跳间隔（秒）
+  heartbeat: 30
+  # 主动连接 Milky Event WS 时的重连间隔（秒）
+  reconnect_interval: 10
+
+webhook:
+  # WebHook 模式下在 bot 上暴露的接收路径
+  path: /milky
+
+# 启动后自动尝试拉取 Ck 的域名列表
+cookie_domains:
+  - qun.qq.com
+  - qzone.qq.com
+  - game.qq.com
